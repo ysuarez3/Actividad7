@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: lightblue;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#boton{
+    margin: 30px;
+    background-color: lightsalmon;
+}
+
+#boton1{
+    background-color: lightsalmon;
+}
+
+#carouselExampleIndicators{
+
+    margin: 20px;
+    margin-left: 250px;
+    width: 950px;
+    height: 500px;
+    
+    
+}
+
+header{
+    margin: 20px;
+    margin-top: 80px
+    
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.color{
+    
+    margin: 20px;
+    border: 5px solid burlywood;
+    float: initial;
+    background-color: lightblue;
+}
+
+.color1{
+    margin: 20px;
+    border: 5px solid burlywood;
+    float: initial;
+    background-color: lightblue;
+}
+
+.color2{
+    margin: 20px;
+    border: 5px solid burlywood;
+    float: initial;
+    background-color: lightblue;
+}
+
+
+
+.social a{
+margin-left: 10px;
+
+}
+
+.formulario {
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+    box-shadow: 0 0 50px 1px rgba(88, 12, 228, 0.3);
+    position: relative;
+}
+.formulario__titulo {
+    text-align: center;  
+    margin-top: 0;
+    color: rgba(2, 2, 2, 0.7);
+    font-size: 200%;
+    
+
+}
+.formulario__input, .formulario__label{
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+    text-align: left;
+}
+.formulario__input{
+    padding: 20px;
+    background: rgba(151, 100, 100, 0.1);
+    border: 1px solid rgba(3, 30, 184, 0.24);
+    margin-bottom: 30px;
+}
+.formulario__input:focus {
+    outline: 1px solid rgba(0,0,0,0.7);
+}
+.formulario__input:focus + .formulario__label{
+    margin-top: -135px;
+}
+.formulario__label{
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20;
+    color: rgba(0,0,0,0.5);
+    transition: all 0.2s;
+}
+.formulario__submit{
+    background: rgba(145, 33, 33, 0.7);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;        
+}
+.fijar {
+    margin-top: -135px;
+}
+
+footer {
+    margin: 50px;
+    font-size: 20px;
+    text-align: right;
+    color: tomato;
+}
+
+.resaltar{
+    background: white ;
+}
+.resaltardbl{
+    background: black;
+}
